@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+.App {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding-top: 40px;
+    gap: 20px;
+    background-color: rgb(228, 228, 255);
+    box-sizing: content-box;
+}
+
+.App .form-app {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: content-box;
+    height: auto;
+    gap: 20px;
+    border-radius: 20px;
+    padding: 30px;
+    background-color: rgb(134, 134, 251);
+    box-shadow: 0 0 15px 7px rgb(36, 36, 38);
+}
+
+.App .form-app:hover {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: content-box;
+    height: auto;
+    gap: 20px;
+    border-radius: 20px;
+    padding: 30px;
+    background-color: rgb(134, 134, 251);
+    box-shadow: 0 0 15px 7px rgb(36, 36, 38);
+    transform: scale(1.03);
+    transition: all 300ms;
+}
+
+.form-app button {
+    width: 150px;
+    height: 40px;
+    border-radius: 15px;
+    border: 3px solid black;
+}
+
+.form-app button:hover {
+    width: 150px;
+    height: 40px;
+    border-radius: 15px;
+    border: 3px solid black;
+    background-color: rgb(192, 192, 253);
+    box-shadow: 0 0 5px 3px rgb(36, 36, 38);
+    transform: scale(1.03);
+    transition: all 300ms;
+}
+
+.cards-img {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.form-article form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    box-sizing: border-box;
+    gap: 10px;
+}
+
+.form-article form input {
+    text-align: center;
+    border-radius: 10px;
+    width: 220px;
+    height: 30px;
+}
+
+.Card-user {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    width: 340px;
+    height: 400px;
+    padding: 25px;
+    border-radius: 20px;
+    background-color: rgb(129, 171, 255);
+    box-shadow: 0 0 10px 3px rgb(36, 36, 38);
+}
+
+.Card-user:hover {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    width: 350px;
+    height: 400px;
+    padding: 25px;
+    border-radius: 20px;
+    background-color: rgb(129, 171, 255);
+    box-shadow: 0 0 15px 5px rgb(0, 0, 0);
+    transform: scale(1.03);
+    transition: all 300ms;
+}
+
+
+.Card-user button {
+    background-color: rgb(223, 176, 255);
+    border-radius: 50%;
+    width: 40px;
+    height: 50px;
+    font-size: 25px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    box-shadow: 0 0 10px 3px rgb(36, 36, 38);
+    cursor: pointer;
+}
+
+.Card-user button:hover {
+    background-color: rgb(199, 114, 255);
+    border-radius: 50%;
+    width: 40px;
+    height: 50px;
+    font-size: 25px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: black;
+    box-shadow: 0 0 10px 3px rgb(36, 36, 38);
+    transform: scale(1.02);
+    transition: all 300ms;
+    cursor: pointer;
+}
